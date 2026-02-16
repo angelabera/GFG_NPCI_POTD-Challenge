@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 class Solution {
     public int findMinDiff(ArrayList<Integer> arr, int m) {
         Collections.sort(arr);
