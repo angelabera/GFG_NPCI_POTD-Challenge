@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     public long subarrayXor(int arr[], int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
