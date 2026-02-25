@@ -6,7 +6,7 @@ class Solution {
         int prefixSum = 0;
         int maxLen = 0;
         
-        Map<Integer, Integer> hm = new HashMap<>();
+        HashMap<Integer, Integer> hm = new HashMap<>();
         hm.put(0 , -1);
         
         for (int i = 0 ; i < n ; i++) {
