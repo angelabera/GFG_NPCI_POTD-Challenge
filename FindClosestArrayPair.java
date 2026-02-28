@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Solution {
     public static ArrayList<Integer> findClosestPair(int arr1[], int arr2[], int x) {
         int n = arr1.length, m = arr2.length;
