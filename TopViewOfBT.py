@@ -9,8 +9,7 @@ class Node:
 class Solution:
     def topView(self, root):
         if root is None:
-            return []
-        
+            return []        
         from collections import deque
         
         q = deque()
